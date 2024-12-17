@@ -2,7 +2,15 @@ cmake_minimum_required(VERSION 3.16)
 
 project(Singly_linkedlist_task LANGUAGES C)
 
-add_executable(Singly_linkedlist_task main.c)
+add_executable(Singly_linkedlist_task
+
+
+    main.c
+
+
+
+
+)
 
 include(GNUInstallDirs)
 install(TARGETS Singly_linkedlist_task
